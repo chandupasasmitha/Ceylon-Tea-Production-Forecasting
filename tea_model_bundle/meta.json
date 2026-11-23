@@ -5,12 +5,46 @@
     "lag3",
     "lag12",
     "roll3",
+    "rain_mm",
+    "rain_days",
+    "rain_hours",
+    "temp_mean",
+    "temp_max",
+    "temp_min",
+    "sun_hours",
+    "radiation",
+    "et0",
+    "rain_lag1",
+    "rain_lag2",
+    "rain_3m",
+    "temp_lag1",
+    "sun_lag1",
+    "water_balance",
+    "rain_anom",
     "month_sin",
     "month_cos",
     "t",
     "elev_High",
     "elev_Medium",
     "elev_Low"
+  ],
+  "weather_features": [
+    "rain_mm",
+    "rain_days",
+    "rain_hours",
+    "temp_mean",
+    "temp_max",
+    "temp_min",
+    "sun_hours",
+    "radiation",
+    "et0",
+    "rain_lag1",
+    "rain_lag2",
+    "rain_3m",
+    "temp_lag1",
+    "sun_lag1",
+    "water_balance",
+    "rain_anom"
   ],
   "family": {
     "Seasonal Naive (lag-12)": "Baseline",
@@ -24,13 +58,64 @@
     "SARIMA": "Time series",
     "Hybrid SARIMA + RF": "Hybrid"
   },
+  "locations": {
+    "Nuwara Eliya": [
+      "High",
+      "Nuwara Eliya",
+      6.9708,
+      80.7829
+    ],
+    "Hatton": [
+      "High",
+      "Dimbula",
+      6.8916,
+      80.5955
+    ],
+    "Bandarawela": [
+      "High",
+      "Uva",
+      6.8259,
+      80.9982
+    ],
+    "Kandy": [
+      "Medium",
+      "Kandy",
+      7.2906,
+      80.6337
+    ],
+    "Matale": [
+      "Medium",
+      "Kandy",
+      7.4675,
+      80.6234
+    ],
+    "Ratnapura": [
+      "Low",
+      "Sabaragamuwa",
+      6.6828,
+      80.3992
+    ],
+    "Galle": [
+      "Low",
+      "Ruhuna",
+      6.0535,
+      80.221
+    ],
+    "Deniyaya": [
+      "Low",
+      "Ruhuna",
+      6.3427,
+      80.5585
+    ]
+  },
   "versions": {
     "scikit-learn": "1.6.1",
     "lightgbm": "4.6.0",
     "catboost": "1.2.10",
     "statsmodels": "0.15.0"
   },
-  "final_models_trained_on": "Jan 2022 - Dec 2025",
-  "test_period": "2025",
-  "created": "2026-11-23 06:04"
+  "train": "2016-2023",
+  "test": "2024-2025",
+  "final_models_trained_on": "2016-2025",
+  "created": "2026-11-23 15:13"
 }
