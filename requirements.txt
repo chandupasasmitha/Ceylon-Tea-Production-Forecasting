@@ -1,0 +1,9 @@
+# Same versions as Google Colab, so the saved models load correctly
+scikit-learn==1.6.1
+lightgbm==4.6.0
+catboost==1.2.10
+joblib
+pandas
+numpy
+streamlit
+plotly

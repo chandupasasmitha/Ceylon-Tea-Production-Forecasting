@@ -1,0 +1,36 @@
+{
+  "features": [
+    "lag1",
+    "lag2",
+    "lag3",
+    "lag12",
+    "roll3",
+    "month_sin",
+    "month_cos",
+    "t",
+    "elev_High",
+    "elev_Medium",
+    "elev_Low"
+  ],
+  "family": {
+    "Seasonal Naive (lag-12)": "Baseline",
+    "Random Forest": "Bagging",
+    "Extra Trees": "Bagging",
+    "Gradient Boosting": "Boosting",
+    "LightGBM": "Boosting",
+    "CatBoost": "Boosting",
+    "ANN (MLP)": "Neural network",
+    "Stacking (RF+GB+LGBM+Cat\u2192Ridge)": "Stacking",
+    "SARIMA": "Time series",
+    "Hybrid SARIMA + RF": "Hybrid"
+  },
+  "versions": {
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "statsmodels": "0.15.0"
+  },
+  "final_models_trained_on": "Jan 2022 - Dec 2025",
+  "test_period": "2025",
+  "created": "2026-11-23 06:04"
+}
